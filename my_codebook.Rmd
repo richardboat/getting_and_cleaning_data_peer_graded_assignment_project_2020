@@ -1,12 +1,3 @@
----
-title: "Getting and Cleaning Data--Codebook"
-
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Getting and cleaning data R project
 
@@ -149,12 +140,4 @@ write.table(tidy_data_set, "tidy_data_set.txt", row.name=FALSE)
 
 
 
-```
-
-
-
-
-```{r pressure, echo=FALSE}
-
-```
 
